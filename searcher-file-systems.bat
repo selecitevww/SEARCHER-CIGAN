@@ -44,9 +44,9 @@ echo Введите название файла c результатами по�
 
 set /p "name3="
 
-mkdir %name3%
+
 FOR /r %%G in ("*%name3%*") Do (@echo %%G
-echo "%%G" >> "%ddссk1%:\%name3%\%name3%%RANDOM%.txt"  )
+echo "%%G" >> "%ddссk1%:\%name3%%RANDOM%.txt"  )
 
 pause
 cls
